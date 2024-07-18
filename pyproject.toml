@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "django-rest-framework"
+version = "0.1.0"
+description = "Bookstore API"
+authors = ["Ezequias Silva Santos <phd.esantos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^3.2"
+djangorestframework = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+factory-boy = "^3.3.0"
+
+[build-system]
+requires = ["poetry-bookstore"]
+build-backend = "poetry.bookstore.masonry.api"
